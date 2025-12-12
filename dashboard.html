@@ -1,0 +1,64 @@
+<!doctype html>
+<html> 
+ <head> 
+  <title>Divine spot</title> 
+  <link rel="stylesheet" href="Style.css">
+ </head> 
+ <body> 
+  <div id="title2">
+    Divine spot 
+  </div> 
+  <nav>
+  <ul class="nav-menu">
+    <li>
+    <input type="text" placeholder="Search..." class="Search box"
+    </li>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Section</a></li>
+    <li><a href="#">Logout</a></li>
+  </ul>
+</nav>
+<div class="books-container">
+  <div class="book" onclick="showInfo('book1',this)">
+    <img src="Book1.jpg" alt="Ramayanam">
+    <p>Ramayanam</p>
+  </div>
+  <div class="book" onclick="showInfo('book2',this)">
+    <img src="Book2.jpg" alt="Mahabharatham">
+    <p>Mahabharatham</p>
+  </div>
+  <div class="book" onclick="showInfo('book3',this)">
+    <img src="Book3.jpg" alt="Bhagavth githa">
+    <p>Bhagavth githa</p>
+  </div>
+  <div class="book" onclick="showInfo('book4',this)">
+    <img src="Book4.jpg" alt="Garuda purana">
+    <p>Garuda Purana</p>
+  </div>
+  <div class="book" onclick="showInfo('book5',this)">
+    <img src="Book5.jpg" alt="Devi Bhagavtham">
+    <p>Devi Bhagavtham</p>
+  </div>
+  <div class="book" onclick="showInfo('book6',this)">
+    <img src="Book6.jpg" alt="Shiva Purana">
+    <p>Shiva Purana</p>
+  </div>
+  >
+  <div class="review-form">
+    <h2>Submit Your Review</h2>
+    <form id="reviewForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="review" placeholder="Write your review here..." rows="5" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+  <div id="footer">
+  DivineSpot is a spiritual platform<br> to connect with the eternal teachings<br> of Sanatan Dharma.
+  <br><br>
+  <p id=thankyou> 🙏 Thanks for visiting DivineSpot may your journey be filled with light and peace</p>
+</div
+  <script src="dsscript.js"></script> 
+ </body>
+</html>
